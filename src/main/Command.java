@@ -1,8 +1,8 @@
 package main;
 
 public interface Command{
-    public static String Forward = "F";
-    public static String Backward = "B";
-    public static String Right = "R";
-    public static String Left = "L";
+    public static char Forward = 'F';
+    public static char Backward = 'B';
+    public static char Right = 'R';
+    public static char Left = 'L';
 }
