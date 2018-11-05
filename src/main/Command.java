@@ -1,8 +1,9 @@
 package main;
 
+//4 commands for driving a car
 public interface Command{
-    public static char Forward = 'F';
-    public static char Backward = 'B';
-    public static char Right = 'R';
-    public static char Left = 'L';
+    public final char Forward = 'F';
+    public final char Backward = 'B';
+    public final char Right = 'R';
+    public final char Left = 'L';
 }
